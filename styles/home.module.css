@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:10px 5rem;
+   
+}
+.blogcontainer{
+    padding: 1rem 2rem;
+    background-color: azure;
+    width: 20rem;
+    margin: 5px 8px;
+    border-radius: 20px;
+
+}
+.blogcontainer h3{
+font-size: larger;
+font-family: cursive;
+}
+.dltBlog{
+  color:white;
+  background-color: rgb(54, 54, 14);
+  width:2rem;
+  padding: 2px 0;
+  font-size: larger;
+  border-radius: 45%;
+  margin-left: 80%;
+}
+.dltBlog:hover{
+  color:black;
+  background-color: rgb(75, 204, 204);
+}
+@media screen and (max-width: 600px) {
+  .container{
+
+    flex-direction:column;
+    justify-content: space-evenly;
+    margin:10px 5rem;
+  }
+  .blogcontainer{
+    padding: 1rem 2rem;
+    background-color: azure;
+    width: 70vh;
+    margin: 5px 8px;
+    border-radius: 20px;
+  }
+}

@@ -1,0 +1,31 @@
+ .main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color: beige;
+    padding: 2rem 5rem;   
+    /* position: fixed;  */
+    opacity:0.9;
+    width:100%;
+    border: 1px solid black;
+    border-radius: 5px;    
+}
+
+.ulLink{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.ulLink li{
+    padding: 0 8px;
+}
+
+@media screen and (max-width: 600px) {
+   .main{
+    flex-direction: column;
+    width: 100vh;
+    justify-content: center;
+    align-items: center;
+   }
+}
